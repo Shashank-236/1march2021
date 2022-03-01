@@ -1,0 +1,12 @@
+Just do recursive call 
+like first pas array through the main function. then in main function simply apply this
+Let x be the number push to the bottom 
+if(s.empty())
+{
+s.push(x)
+return ;
+else[
+int n=s.top(;
+s.pop():
+solve(s,x);
+s.push(n);
